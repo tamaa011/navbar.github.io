@@ -1,0 +1,50 @@
+/*colors*/
+body {
+    height: 5000px;
+}
+:root {
+    --primaryOne: #0466C8;
+    --primaryTwo: #FFA428;
+    --primaryThree: #FFFFFF;
+    --secondaryOne: #FFF2DC;
+    --secondaryTwo: #363636;
+    --secondaryThree: #7F7F7F;
+    --secondaryFour: #F2F7FC;
+}
+/*colors*/
+/*Start NavBar Logo Style*/
+.navBar .navbar-header a {
+    color: var(--primaryOne);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navBar .navbar-header a:hover {
+    color: var(--primaryOne);
+}
+/*End NavBar Style*/
+/*Start NavBar Li Style*/
+.navBar .nav li a {
+    color: var(--secondaryTwo);
+    font-size: 18px;
+}
+/*End NavBar Li Style*/
+/*Start NavBar Background Color and scroll*/
+#navbar {
+    background-color: var(--secondaryFour);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+.navBar .collapse .nav a:hover {
+    background-color: var(--secondaryFour);
+}
+
+/*end NavBar Background Color*/
+/*start navBar Small Screen*/
+.navbar-toggle span {
+    background-color: black;
+}
+/*End navBar Small Screen*/
+
